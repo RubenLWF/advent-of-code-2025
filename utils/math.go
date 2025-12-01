@@ -65,3 +65,13 @@ func MinMax(nums []int) (min, max int) {
 	}
 	return min, max
 }
+
+func Mod(a, b int) int {
+    return ((a % b) + b) % b
+}
+
+func Divmod(numerator, denominator int) (quotient, remainder int) {
+    quotient = numerator / denominator
+    remainder = numerator % denominator
+    return
+}
