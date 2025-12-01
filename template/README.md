@@ -1,9 +1,5 @@
 # Day X: [Puzzle Title]
 
-## Problem Description
-
-[Add problem description here]
-
 ## Solution
 
 ### Part 1
@@ -18,8 +14,12 @@
 
 ```bash
 # Run solution
-make run DAY=XX
+cd ./day01
+
+go run .
 
 # Run tests
-make test-day DAY=XX
+cd ./day01
+
+go test .
 ```
