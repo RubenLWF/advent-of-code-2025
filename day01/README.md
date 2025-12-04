@@ -27,17 +27,3 @@ Perform some logic to see whether the pointer passes over 0 in this move. This i
 Apply `value mod 100`.
 
 See if the pointer ends up at 0. If so, increase the count by 1.
-
-## Running
-
-```bash
-# Run solution
-cd ./day01
-
-go run .
-
-# Run tests
-cd ./day01
-
-go test .
-```

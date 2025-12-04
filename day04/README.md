@@ -21,21 +21,8 @@ Create a new array, `toRemove`, this stores the coordinates of all the rolls tha
 Run the same checks as for part 1, only now, rather than incrementing the count if the number of adjecent cells containing a roll < 4, add the coordinates of the cell to `toRemove`.
 
 Check if `toRemove` contains any items.
+
 - If this is not the case, we are done and we break out of the loop.
 - If this is the case, add the length of `toRemove` to the count, and remove the rolls on all coordinates in `toRemove`. Start a new iteration of the loop.
 
 Return the count.
-
-## Running
-
-```bash
-# Run solution
-cd ./day01
-
-go run .
-
-# Run tests
-cd ./day01
-
-go test .
-```

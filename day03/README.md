@@ -17,17 +17,3 @@ Return the sum of the max for each line.
 To find the max number with 12 digits, greedily pick digits from left to right.
 
 At each step, find highest digit in valid range. We can't pick a digit too late in the number, since this would prevents us from selecting 12 digits in total.
-
-## Running
-
-```bash
-# Run solution
-cd ./day01
-
-go run .
-
-# Run tests
-cd ./day01
-
-go test .
-```

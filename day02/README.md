@@ -17,17 +17,3 @@ Same method to get lower and upper bounds as part 1.
 Check for all numbers `i` between `0` and `len/2` if `len%i == 0`. If this is the case, the number can be split up into multiple parts of length `i`.
 
 Take the first `i` characters of the string as the pattern. Match each interval if `i` characters to the pattern, if all intervals match the pattern, add the number to the count.
-
-## Running
-
-```bash
-# Run solution
-cd ./day01
-
-go run .
-
-# Run tests
-cd ./day01
-
-go test .
-```
